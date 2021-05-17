@@ -34,7 +34,7 @@ io.on("connection", (socket) => {
       socket.compress(true).to(roomId).emit("MESSAGE", msg);
     });
 
-    console.log(roomId);
+    // console.log(roomId);
   });
 });
 
