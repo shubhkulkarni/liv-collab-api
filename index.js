@@ -8,7 +8,7 @@ const socketio = require("socket.io");
 
 const io = socketio(httpServer, {
   cors: {
-    origin: "https://shubhkulkarni.github.io/liv-collab",
+    origin: "https://shubhkulkarni.github.io",
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true,
